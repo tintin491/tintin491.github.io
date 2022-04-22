@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<title>Quentin Kimppienne Etudiant en Informatique</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+</head>
+
+
+<body data-spy="scroll">	
+	<header>
+		<div id="hero">
+			<div class=" container herocontent">
+				<h2 class="titreanim" data-wow-duration="2s">Quentin Kimppienne</h2>
+				<h3>Etudiant en  Informatique</h3>
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					<a class="navbar-brand" href="#hero">
+						<span class="brandname">Quentin Kimppienne - Portfolio</span>
+					</a>
+				</div>
+				<div class="navbar-collapse collapse" aria-expended="false" style>
+					<ul class="nav navbar-nav navbar-right">
+						<li><span class="icon-user"></span><a href="#Apropos ">A Propos</a></li>
+						<li><a href="#Experience">Expériences</a></li>
+						<li><a href="#Diplome">Diplômes</a></li>
+						<li><a href="#Projet">Mes projets</a></li>
+						<li><a href="#Contacts">Contact</a></li>
+						<li><a href="quentinKimppienneCV.pdf"><span class="btnicon icon-cloud-download"></span>Mon CV en pdf</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<div id= "Apropos" class="container">
+		<div class="aligner">
+		<img src="img/homme.jpg">
+			<h3> A propos de moi </h3>
+			<hr class="barreseparation">
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<h2>Je m'appelle Quentin Kimppienne</h2>
+				<h4>Je suis Etudiant en Informatique</h4>
+				<p>&nbsp </p>
+				<p>Je suis étudiant en BTS SIO avec comme spécialité le developpement au lycée Chevrolier à Angers, le Bts Sio est un  Bts informatique ou l'on apprend le develeppement d'application et comment les sécurisées.</p>
+				<p>Ce portfolio a pour but de présenter les différents projets sur lesquels j'ai travaillé ces derniers temps aussi bien dans le cadre scolaire et associatif que personnel.</br> Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, vous pouvez me contacter en cliquant ici : <a href="#contacts">Contact</a></p>
+			</div>
+		</div>
+		<div class="col-md-6 mx-auto text-center">
+			<img src="img/moi.png">
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div id="Experience" class="container">
+		<div class="aligner">
+		<img src="img/valise.jpg">
+			<h3> Mes expériences </h3>
+			<hr class="barreseparation">
+		</div>
+		<div class="row">
+			<a href="https://www.mqhsa.com" style="color: black" >
+			<div class="col-md-6">
+				<div> 
+					<img src="img/logoMqhsa.jpg">
+				</div>
+				
+				<div>
+					<p> Je suis bénévole à la Maison que quartier des Haut de Saint depuis Septembre 2021.</p>
+				</div>
+			</div>
+			</a>
+			 <br>
+			<a href="http://www.jcanjou.fr" style="color: black">
+			<div class="col-md-6">
+				<div> 
+					<img src="img/Logo-JCA.jpg">
+				</div>
+				
+				<div>
+					<p> J'ai pratiqué le judo au Judo Club d'Anjou de Septembre 2011 à Mai 2020.</p>
+				</div>
+			</div>
+			</a>
+		</div>
+	</div>
+	<div class="diplome">
+		<div id="Diplome" class="container">
+			<div class="aligner">
+				<img src="img/diplome.jpg">
+				<h3> Mes Diplômes </h3>
+				<hr class="barreseparation">
+			</div>
+			<div class="container">
+				<ul>
+					<div id="boxDiplome">
+						<li>
+							<a href="https://lyc-ajrenoir.paysdelaloire.e-lyco.fr" style="text-decoration: none">
+								<img src="img/bac.jpg">
+								<h4 style="color: black">Baccalauréat générales spécialités Numérique Sciences <br>Informatique et Mathématique</h4>
+								<p style="color: black">2020-2021 : Lycée Auguste et Jean Renoir - Angers(49)</p>
+							</a>
+						</li>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="Projet" class="container" >
+		<div class="aligner">
+			<img src="img/projet.jpg">
+			<h3> Mes Projets </h3>
+			<hr class="barreseparation">
+		</div>
+		<div class= "container">
+			<ul>
+				<div id="boxExperience">
+					<li>
+						<a style="text-decoration: none">
+							<img src="img/acceuil.jpg">
+							<img src="img/bdd.jpg">
+							<h4 style="color: black">Création d'une application de gestion de base de donnée en python<br>Et utilsation de la bibliothéque Tkinter pour l'interface graphique <br> en Terminal.</h4>
+						</a>
+					</li>
+					<li>
+						<a style="text-decoration: none">
+							<img src="img/carte.jpg">
+							<h4 style="color: black">Création du jeu de la bataille en programmation orientée objet <br> en python en Terminal.</h4>
+						</a>
+					</li>						
+				</div>
+			</ul>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<div class="diplome">
+		<div id="Contacts" class="container">
+			<div class="aligner">
+				<img src="img/enveloppe.jpg">
+				<h3> Me contacter </h3>
+				<hr class="barreseparation">
+			</div>
+			<div>
+				<form class="aligner-form" id="contact" method="post">
+					<p>
+						<input id="sujet" name="sujet" placeholder="Sujet" type="text" required>
+						<span id="msg_sujet"></span>
+					</p>
+					<p>
+						<input id="email" name="email" placeholder="Votre Email" type="email" required>
+						<span id="msg_email"></span>
+					</p>
+					<p>
+						<textarea id="message" name="message" placeholder="Votre Message" rows="7" cols="40" required></textarea>
+						<span id="msg_message"></span>
+					</p>
+					<p>
+						<input type="submit" value="Envoyer" />
+					</p>
+				</form>
+				
+				<?php
+					if (isset($_POST["message"]))
+					{
+						$message = "Ce message vous a été envooyé via le page de contact de votre portfolio
+							Email : " . $_POST["email"] . "
+							Message : " .$_POST["message"];
+						
+						$envoie = mail("quentinkimppienne@gmail.com",$_POST["sujet"],$message,"");
+					}
+					if($envoie)
+					{
+						echo "le message a bien été envoyé";
+					}
+				?>
+				
+			</div>
+		</div>
+	</div>
+</footer>
+
+	
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+	
