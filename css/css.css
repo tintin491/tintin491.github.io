@@ -1,0 +1,108 @@
+#hero {
+    color: #ddd;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/arbre-info.jpg)no-repeat;
+    max-height: 880px;
+    overflow: hidden;
+	text-align: center;
+    background-size: cover;
+}
+
+.herocontent {
+    padding: 13% 0;
+    width: 100%;
+    max-width: 900px;
+}
+
+.sectionhead {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.diplome {
+    padding-top: 20px;
+    background: #DCDCDC;
+}
+
+#boxDiplome li :hover {
+    box-shadow: 1px 2px 25px rgb(160 160 160 / 40%);
+}
+
+ul{
+	 list-style-type : none;
+}
+
+#boxDiplome li {
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+#boxExperience li {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    background: #DCDCDC;
+    border-radius: 5px;
+}
+
+.barreseparation {
+	width: 80px;
+    color: #363942;
+    border-top: 2px solid #ea9312;
+}
+
+.apropos{
+padding-top: 50px;
+}
+
+.position{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.aligner{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#hero h2 {
+    font-size: 60px;
+}
+
+img {
+	max-height : 100%;
+	height : auto;
+	max-width : 100%;
+	width: auto;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-form {
+	margin-bottom: 0;
+}
+
+.aligner-form{
+    text-align: center;
+}
+
+body {
+	background-color:#fefee2;
+}
+
+fermetereMenu {
+	@media only screen and (max-width: 980px)
+	.navbar-collapse.collapse {
+    display: none!important;
+}
