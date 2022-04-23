@@ -159,22 +159,17 @@
 				<hr class="barreseparation">
 			</div>
 			<div>
-				<form class="aligner-form" id="contact" method="post" action="https://formspree.io/f/meqnpqaq">
-					<p>
-						<input id="sujet" name="sujet" placeholder="Sujet" type="text" required>
-						<span id="msg_sujet"></span>
-					</p>
-					<p>
-						<input id="email" name="email" placeholder="Votre Email" type="email" required>
-						<span id="msg_email"></span>
-					</p>
-					<p>
-						<textarea id="message" name="message" placeholder="Votre Message" rows="7" cols="40" required></textarea>
-						<span id="msg_message"></span>
-					</p>
-					<p>
-						<input type="submit" value="Envoyer" />
-					</p>
+				<form action="https://formspree.io/f/meqnpqaq"method="POST">
+				  <label>
+				    Your email:
+				    <input type="email" name="email">
+				  </label>
+				  <label>
+				    Your message:
+				    <textarea name="message"></textarea>
+				  </label>
+				  <!-- your other form fields go here -->
+				  <button type="submit">Send</button>
 				</form>
 			</div>
 		</div>
